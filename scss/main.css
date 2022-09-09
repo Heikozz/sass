@@ -1,1 +1,31 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.cuotas {
+  height: 100%;
+  width: 100%;
+}
+
+.textocentrado {
+  text-align: center;
+}
+
+body section {
+  display: flex;
+  justify-content: space-evenly;
+}
+body section div a img {
+  height: 150px;
+  width: 150px;
+}
+
+footer {
+  background-color: black;
+}
+footer div {
+  display: flex;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
