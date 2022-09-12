@@ -1,0 +1,40 @@
+//imagen
+.cuotas{
+    height: 100%;
+    width: 100%;
+}
+//navega por marcas
+.textocentrado{
+    @extend %texto-marcas-inicio;
+}
+//body incio
+body{
+    nav{
+        font-family: $bebas;
+        font-size: 20px;
+    }
+    section{
+        display: flex;
+        justify-content: space-evenly;
+        div{
+            a{
+                img{
+                    height: 150px;
+                    width: 150px;
+                }
+            }
+        }
+    }
+}
+//body final
+
+//footer incio
+footer{
+    background-color: black;
+    font-family: $bebas;
+    div{
+        color: white;
+
+    }
+}
+//footer final

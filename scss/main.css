@@ -1,7 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+}
+
+.textocentrado {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  color: #7E52A0;
 }
 
 .cuotas {
@@ -9,10 +17,10 @@
   width: 100%;
 }
 
-.textocentrado {
-  text-align: center;
+body nav {
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
 }
-
 body section {
   display: flex;
   justify-content: space-evenly;
@@ -24,8 +32,8 @@ body section div a img {
 
 footer {
   background-color: black;
+  font-family: "Bebas Neue", cursive;
 }
 footer div {
-  display: flex;
   color: white;
 }/*# sourceMappingURL=main.css.map */
