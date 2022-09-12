@@ -1,14 +1,13 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
 //variables
 @import '../variables/colores';
 @import '../variables/tipografias';
 @import '../variables/extend';
+@import '../variables/mixin';
 //secciones
-@import './secciones/main-index'
+@import './secciones/main-index';
+@import './secciones/los-favoritos';
+//media querys
+@import './media-querys/mobile-first';
 
 
 

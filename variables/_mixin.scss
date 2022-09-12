@@ -1,0 +1,8 @@
+@mixin fontcolor($colordeletras) {
+    color: $colordeletras ;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: $bebas;
+    text-decoration: underline;
+    padding-top: 10px;
+}

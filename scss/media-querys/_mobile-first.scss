@@ -1,0 +1,20 @@
+@media(min-width: 1024px){
+    //cuotas
+.cuotas{
+    height: 50px;
+}
+//section
+body{
+    section{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+//cards
+.displayflex{
+    flex-direction: row;
+    justify-content: space-around;
+}
+}
