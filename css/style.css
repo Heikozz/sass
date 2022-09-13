@@ -25,10 +25,12 @@ body section {
     width: 150px; }
 
 footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
   background-color: black;
-  font-family: "Bebas Neue", cursive; }
-  footer div {
-    color: white; }
+  height: 100px;
+  color: white; }
 
 body main {
   font-family: "Bebas Neue", cursive;
@@ -62,6 +64,9 @@ body p {
 .dondenosubicamos {
   font-family: "Bebas Neue", cursive;
   font-size: 30px; }
+
+.marginbottom {
+  margin-bottom: 100px; }
 
 @media (min-width: 1024px) {
   .cuotas {

@@ -35,12 +35,13 @@ body{
 
 //footer incio
 footer{
-    background-color: black;
-    font-family: $bebas;
-    div{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        background-color:black ;
+        height: 100px;
         color: white;
-
     }
-}
+    
 //footer final
 
