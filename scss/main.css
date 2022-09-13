@@ -10,6 +10,7 @@
 .cuotas {
   height: 30px;
   width: 100%;
+  overflow: hidden;
 }
 
 body nav {
@@ -47,12 +48,33 @@ body main {
 }
 
 .h2 {
-  color: aqua;
+  color: black;
   text-transform: uppercase;
   text-align: center;
   font-family: "Bebas Neue", cursive;
   text-decoration: underline;
   padding-top: 10px;
+}
+
+body p {
+  text-align: center;
+}
+
+.margin {
+  margin-top: 10px;
+}
+
+.sectionflex {
+  display: flex;
+}
+
+.footer {
+  margin-top: 25vh;
+}
+
+.dondenosubicamos {
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
 }
 
 @media (min-width: 1024px) {
