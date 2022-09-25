@@ -10,7 +10,10 @@
 .cuotas {
   height: 30px;
   width: 100%;
-  overflow: hidden;
+}
+
+.margintop {
+  margin-top: 20px;
 }
 
 body nav {
@@ -27,14 +30,30 @@ body section div a img {
   height: 150px;
   width: 150px;
 }
+body section div a img:hover {
+  transform: scale(2, 2);
+}
 
 footer {
-  display: flex;
-  justify-content: space-around;
   align-items: flex-end;
   background-color: black;
-  height: 100px;
+  height: 65vh;
   color: white;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.font {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
 }
 
 body main {
@@ -57,12 +76,16 @@ body main {
   padding-top: 10px;
 }
 
-body p {
+.textocentrado2 {
   text-align: center;
 }
 
 .margin {
   margin-top: 10px;
+}
+
+.margin2 {
+  margin-bottom: 20px;
 }
 
 .sectionflex {
@@ -76,6 +99,7 @@ body p {
 .dondenosubicamos {
   font-family: "Bebas Neue", cursive;
   font-size: 30px;
+  margin-bottom: 10px;
 }
 
 .marginbottom {
@@ -94,5 +118,12 @@ body p {
   .displayflex {
     flex-direction: row;
     justify-content: space-around;
+  }
+  .flex {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  footer {
+    height: 30vh;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -2,13 +2,15 @@
 .cuotas{
     height: 30px;
     width: 100%;
-    overflow: hidden
 }
 //navega por marcas
 .textocentrado{
     @extend %texto-marcas-inicio;
 }
 
+.margintop{
+    margin-top: 20px;
+}
 
 //body incio
 body{
@@ -21,27 +23,47 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
+        
         div{
             a{
                 img{
                     height: 150px;
                     width: 150px;
+                    &:hover{
+                        transform: scale(2,2);
+                    }
+                    
                 }
             }
         }
     }
 }
+
 //body final
 
 //footer incio
 footer{
-        display: flex;
-        justify-content: space-around;
         align-items: flex-end;
         background-color:black ;
-        height: 100px;
+        height: 65vh;
         color: white;
+        a{
+            text-decoration: none;
+            color: white;
+        }
     }
+
+.font{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: $bebas;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
     
 //footer final
 

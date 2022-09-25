@@ -1,0 +1,11 @@
+Todos los html le puse:
+
+Palabras claves: Mediante la etiqueta keywords ,agregue palabras claves como:¨zapatillas,zapas,botas,deportivo.¨,menos contacto, todos tienen las mismas keywords
+
+Descrpcion: Mediante la etiqueta Description, agregue parrafos en cada html ,como por ejemplo el index: ¨Sneakers es un emprendimiento dedicado a la venta menor y mayor de las zapatillas mas compradas en el mundo¨,
+en el archivo los favoritos:¨las zapatillas mas buscadas y compradas del mercado ¨,en el archivo hombre y mujer:¨Catalogo de zapatillas para hombres/mujer de las mejores marcas¨,
+y en el de contacto: ¨Consultas de los clientes al comprador¨.
+
+Tambien agregue un SITEMAP con xml sitemaps
+
+

@@ -8,8 +8,10 @@
 
 .cuotas {
   height: 30px;
-  width: 100%;
-  overflow: hidden; }
+  width: 100%; }
+
+.margintop {
+  margin-top: 20px; }
 
 body nav {
   font-family: "Bebas Neue", cursive;
@@ -23,14 +25,26 @@ body section {
   body section div a img {
     height: 150px;
     width: 150px; }
+    body section div a img:hover {
+      transform: scale(2, 2); }
 
 footer {
-  display: flex;
-  justify-content: space-around;
   align-items: flex-end;
   background-color: black;
-  height: 100px;
+  height: 65vh;
   color: white; }
+  footer a {
+    text-decoration: none;
+    color: white; }
+
+.font {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Bebas Neue", cursive; }
+
+.flex {
+  display: flex;
+  flex-direction: column; }
 
 body main {
   font-family: "Bebas Neue", cursive;
@@ -49,11 +63,14 @@ body main {
   text-decoration: underline;
   padding-top: 10px; }
 
-body p {
+.textocentrado2 {
   text-align: center; }
 
 .margin {
   margin-top: 10px; }
+
+.margin2 {
+  margin-bottom: 20px; }
 
 .sectionflex {
   display: flex; }
@@ -63,7 +80,8 @@ body p {
 
 .dondenosubicamos {
   font-family: "Bebas Neue", cursive;
-  font-size: 30px; }
+  font-size: 30px;
+  margin-bottom: 10px; }
 
 .marginbottom {
   margin-bottom: 100px; }
@@ -77,4 +95,9 @@ body p {
     justify-content: space-around; }
   .displayflex {
     flex-direction: row;
-    justify-content: space-around; } }
+    justify-content: space-around; }
+  .flex {
+    flex-direction: row;
+    justify-content: space-evenly; }
+  footer {
+    height: 30vh; } }

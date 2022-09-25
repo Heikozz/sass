@@ -1,12 +1,13 @@
-
-body{
-    p{
-        text-align: center;
-    }
+.textocentrado2{
+    text-align: center;
 }
 
 .margin{
     margin-top: 10px;
+}
+
+.margin2{
+    margin-bottom: 20px;
 }
 
 
@@ -21,4 +22,5 @@ body{
 .dondenosubicamos{
     font-family: $bebas;
     font-size: 30px;
+    margin-bottom: 10px;
 }
