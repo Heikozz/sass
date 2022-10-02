@@ -76,6 +76,11 @@ body main {
   padding-top: 10px;
 }
 
+.logos {
+  width: 70px;
+  height: 30px;
+}
+
 .textocentrado2 {
   text-align: center;
 }
@@ -92,14 +97,22 @@ body main {
   display: flex;
 }
 
-.footer {
-  margin-top: 25vh;
-}
-
 .dondenosubicamos {
   font-family: "Bebas Neue", cursive;
   font-size: 30px;
   margin-bottom: 10px;
+}
+
+.flex3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.font3 {
+  font-weight: bold;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  text-decoration: underline;
 }
 
 .marginbottom {
@@ -125,5 +138,9 @@ body main {
   }
   footer {
     height: 30vh;
+  }
+  .flex3 {
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }/*# sourceMappingURL=main.css.map */
